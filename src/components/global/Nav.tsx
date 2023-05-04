@@ -29,7 +29,7 @@ const NavItem = ({ href, children }: NavItemProps) => (
 );
 
 const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="sticky top-0 z-50 flex h-24 w-full items-center justify-between border-b border-white p-6 sm:space-x-8">

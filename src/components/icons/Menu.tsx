@@ -1,5 +1,6 @@
 import * as React from "react";
 
+// eslint-disable-next-line react/display-name
 const Menu = React.memo((props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 48 48" fill="none" {...props}>
     <path
