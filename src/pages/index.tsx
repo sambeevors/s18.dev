@@ -15,6 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="relative">
         <motion.video
+          autoPlay
           loop
           muted
           playsInline
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
             // We rely on the poster image to show if the video fails to load.
             setVideoLoaded(true);
           }}
-          onLoad={(e) => {
+          onCanPlay={(e) => {
             e.currentTarget.play();
           }}
           initial={{ opacity: 0 }}
