@@ -35,7 +35,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="relative min-h-[100dvh] bg-black font-mono text-white antialiased">
+      <body className="relative flex min-h-[100dvh] flex-col bg-black font-mono text-white antialiased">
         <Main />
         <NextScript />
       </body>
