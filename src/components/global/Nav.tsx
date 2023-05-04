@@ -56,8 +56,8 @@ const Nav = () => {
       </button>
       <nav
         className={classNames(
-          "pointer-events-none absolute inset-x-0 top-24 bottom-0 flex h-[calc(100dvh-6rem)] w-full flex-col items-center justify-center space-y-16 bg-black lowercase opacity-0",
-          "sm:pointer-events-auto sm:relative sm:inset-auto sm:h-auto sm:w-auto sm:flex-row sm:justify-start sm:space-x-8 sm:space-y-0 sm:bg-transparent sm:opacity-100",
+          "pointer-events-none absolute inset-x-0 top-24 bottom-0 flex h-[calc(100dvh-6rem)] w-full flex-col items-center justify-center space-y-16 bg-black lowercase opacity-0 transition duration-300",
+          "sm:pointer-events-auto sm:relative sm:inset-auto sm:h-auto sm:w-auto sm:flex-row sm:justify-start sm:space-x-8 sm:space-y-0 sm:bg-transparent sm:opacity-100 sm:transition-none",
           {
             "pointer-events-auto opacity-100": isMenuOpen,
           }
