@@ -15,7 +15,6 @@ const Home: NextPage = () => {
       </Head>
       <div className="relative">
         <motion.video
-          autoPlay
           loop
           muted
           playsInline
