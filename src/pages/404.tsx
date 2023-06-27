@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Page from "../components/global/Page";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 
 const Home: NextPage = () => (
   <Page>
@@ -9,7 +10,9 @@ const Home: NextPage = () => (
       <title>404 | s18.dev</title>
     </Head>
     <div className="relative space-y-4 py-10 px-6 text-center sm:space-y-6 sm:py-16">
-      <p className="sm:text-xl sm:font-bold">404: Page not found</p>
+      <p className="sm:text-xl sm:font-bold">
+        <TypeAnimation sequence={["404, page not found "]} className="type" />
+      </p>
       <Link
         href="/"
         className="inline-block hover:bg-white hover:text-black focus-visible:bg-white focus-visible:text-black focus-visible:outline-none"

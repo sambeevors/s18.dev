@@ -25,3 +25,7 @@
     max-height: 100dvh;
   }
 }
+
+.type::after {
+  content: "█" !important;
+}
