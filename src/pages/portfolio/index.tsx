@@ -13,15 +13,12 @@ const Portfolio: NextPage = () => {
       <div className="relative">
         <div className="relative mx-auto h-[calc(100dvh-6rem)] w-full p-6">
           <div className="flex h-full flex-col items-center justify-center space-y-4">
-            <div className="text-4xl lowercase sm:text-5xl xl:text-[3.5vw]">
-              <span className="opacity-50">&lt;</span>
-              <TypeAnimation
-                sequence={["Portfolio", 1000]}
-                speed={50}
-                cursor={false}
-              />
-              <span className="opacity-50">&gt;</span>
-            </div>
+            <TypeAnimation
+              className="mb-8 text-4xl lowercase before:text-white/50 before:content-['<'] after:text-white/50 after:content-['>'] sm:text-5xl xl:text-[3.5vw]"
+              sequence={["Portfolio", 1000]}
+              speed={50}
+              cursor={false}
+            />
             <span className="text-base">
               switch(<span className="text-white/50">project</span>):
             </span>
