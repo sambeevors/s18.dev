@@ -26,7 +26,7 @@ module.exports = {
       },
       minHeight: {
         "screen-no-nav": "calc(100dvh - 6rem)", // Screen without navbar
-        viewport: "calc(100dvh - 6rem - 24px)", // Screen without navbar and padding
+        viewport: "calc(100dvh - 6rem - 48px)", // Screen without navbar and padding
       },
     },
   },

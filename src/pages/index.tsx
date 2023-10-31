@@ -46,10 +46,12 @@ const Home: NextPage = () => {
                   &gt; pushing the boundaries of digital since 2015
                 </span>
                 <Link
-                  href="/portfolio"
+                  href="https://read.cv/s18"
                   className="mt-8 after:text-white/50 after:content-['();'] hover:underline focus-visible:underline focus-visible:outline-none"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  load_portfolio
+                  read_cv
                 </Link>
               </div>
             </div>
