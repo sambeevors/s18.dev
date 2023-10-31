@@ -32,7 +32,7 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50 flex h-24 w-full items-center justify-between border-b border-white p-6 sm:space-x-8">
+    <div className="sticky top-0 z-50 flex h-24 w-full items-center justify-between border-b border-white bg-black p-6 sm:space-x-8">
       <NavLogo />
       <button
         role="button"
