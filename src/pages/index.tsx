@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                   1000,
                   "Developer",
                   1000,
-                  "UX Specialist",
+                  "UX Pro",
                   1000,
                   "Marketer",
                   1000,
